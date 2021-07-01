@@ -4,3 +4,64 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* common  */
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.buttons {
+    background-color: #0161FF;
+    color: white;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    width: 70px;
+    height: 30px;
+}
+
+/* header  */
+header {
+    padding: 20px;
+    margin-top: 10px;
+}
+
+/* nav header  */
+.nav-width {
+    width: 50%;
+    padding: 10px;
+}
+
+.nav-left {
+    float: left;
+}
+
+.nav-right {
+    float: right;
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+ul, nav li {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    margin: 0 10px;
+}
