@@ -39,9 +39,27 @@ body {
     transform: translate(-50%, -50%);
 }
 
+.centered-75 {
+    width: 75%;
+    margin: auto;
+}
+
 /* typo  */
 h1 {
     font-size: 65px;
+}
+
+h2 {
+    margin: 30px 0;
+}
+
+h3 {
+    margin-bottom: 20px;
+}
+
+h4 {
+    margin-bottom: 20px;
+    font-weight: 700;
 }
 
 p {
@@ -54,7 +72,7 @@ header {
 }
 
 .arrow-down{
-    font-size: 40px;
+    font-size: 35px;
 }
 
 /* nav header  */
@@ -96,7 +114,7 @@ li a {
 }
 
 .hero {
-    height: 515px;
+    height: 520px;
 }
 
 .col-left {
@@ -121,3 +139,68 @@ li a {
     width: 100%;
     margin-top: 20px;
 }
+
+/* seconda section main  */
+.container-1 {
+    padding-top: 120px;
+    height: 1200px;
+}
+
+.colonna-left, .colonna-center, .colonna-right {
+    margin-top: 40px;
+    float: left;
+    width: calc(100% / 3 - 20px);
+    height: 900px;
+    border: 1px solid lightgrey;
+    font-size: 14px;
+}
+
+.colonna-left {
+    margin-right: 20px;
+}  
+
+.colonna-center {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.colonna-right {
+    margin-left: 20px;
+}
+
+.singolo {
+    border-bottom: 1px solid lightgray;
+    text-align: center;
+    padding: 10px;
+}
+
+.text-singolo {
+    margin: 15px;
+}
+
+.durata {
+    color: grey;
+    display: block;
+    margin: 10px 0px 50px 0px;
+}
+
+.text-singolo div {
+    margin: 20px 0px;
+}
+
+.text-singolo a{
+    color: #0161FF;
+}
+
+.trattino {
+    display: inline-block;
+    width: 50px;
+    height: 20px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid grey;
+}
+
+.spunta-blu {
+    color: #0161FF;
+}
+
