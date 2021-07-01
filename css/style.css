@@ -143,7 +143,6 @@ li a {
 /* seconda section main  */
 .container-1 {
     padding-top: 120px;
-    height: 1200px;
 }
 
 .colonna-left, .colonna-center, .colonna-right {
@@ -174,21 +173,21 @@ li a {
     padding: 10px;
 }
 
-.text-singolo {
-    margin: 15px;
-}
-
 .durata {
     color: grey;
     display: block;
     margin: 10px 0px 50px 0px;
 }
 
-.text-singolo div {
+.title-box {
+    margin: 15px;
+}
+
+.title-box div {
     margin: 20px 0px;
 }
 
-.text-singolo a{
+.title-box a{
     color: #0161FF;
 }
 
@@ -204,3 +203,27 @@ li a {
     color: #0161FF;
 }
 
+/* terza sezione del main */
+.section-3 {
+    text-align: center;
+    border: 1px solid lightgrey;
+    margin-top: 40px;
+    padding: 10px;
+}
+
+.h3-section3 {
+    padding: 20px;
+    position: relative;
+    border: 1px solid lightgray;
+}
+
+.h3-section3 div:last-child {
+    margin: 20px 0;
+    font-weight: 500;
+}
+
+.align-right {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
