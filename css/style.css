@@ -23,7 +23,7 @@ body {
     border: none;
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
-    width: 70px;
+    min-width: 70px;
     height: 30px;
 }
 
@@ -51,6 +51,7 @@ h1 {
 
 h2 {
     margin: 30px 0;
+    font-size: 40px;
 }
 
 h3 {
@@ -133,7 +134,7 @@ li a {
 }
 
 .buttons.button-hero {
-    width: 200px;
+    min-width: 200px;
     height: 30px;
     margin-top: 20px;
 }
@@ -234,6 +235,7 @@ li a {
 /* quarta sezione del main  */
 .section-partner {
     margin-top: 100px;
+    margin-bottom: 80px;
 }
 .partner-left {
     float: left;
@@ -254,6 +256,39 @@ li a {
     border: 1px solid black;
     background-color: white;
     color: black;
-    width: 140px;
+    min-width: 140px;
+}
+
+/* quinta sezione main  */
+
+.business-row {
+    margin-bottom: 30px;
+}
+
+.centered-75 div img{
+    width: 100%;
+}
+.business-left, .business-center, .business-right {
+    float: left;
+    width: calc(100% / 3 - 40px);
+    margin-right: 40px;
+    height: 500px;
+}
+
+.business-center {
+    float: left;
+    width: calc(100% / 3 - 40px);
+    margin-right: 40px;
+    height: 500px;
+}
+
+.business-right {
+    float: left;
+    width: calc(100% / 3 - 40px);
+    height: 500px;
+}
+
+#underline {
+    text-decoration: underline;
 }
 
