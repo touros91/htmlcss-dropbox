@@ -287,36 +287,29 @@ ul li {
 /* sesta sezione main  */
 .designit{
     margin-top: 40px;
-    background-color: blue;
-    width: 100%;
-    height: 400px;
 }
 
 .design-left {
     float: left;
-    background-color: chocolate;
-    height: 100%;
     width: 30%;
 }
 
 .design-center{
     float: left;
-    background-color: green;
-    height: 100%;
-
     width: 40%;
+    background-color: #f5f5f5;
+    padding: 20px;
+
 }
 
 .design-right {
     float: left;
     background-color: rgb(210, 30, 150);
-    height: 100%;
     width: 30%;
 }
 
 .row {
     height: 50%;
-    background-color: indigo;
 }
 
 .transform-translate img{
@@ -324,34 +317,66 @@ ul li {
 }
 
 .row-col-left-1 {
-    float: left;
-    background-color: #a3d39b;
-    height: 100%;
-    width: 50%;
-    border: 5px solid #dbeed9;
+    float:left;
     position: relative;
+    width: 50%;
+    padding-top : 50%; /* = width for a 1:1 aspect ratio */
+    background-color:#a3d39b;
+    /* border: 1px solid #d0e9cd; */
+    overflow:hidden  
 }
 
 .row-col-right-1 {
-    float: left;
-    background-color: #61082b;
-    height: 100%;
+    float:left;
+    position: relative;
     width: 50%;
-    position: relative; 
+    padding-top : 50%; /* = width for a 1:1 aspect ratio */
+    background-color:#61082b;
+    overflow:hidden;
 } 
 
 .row-col-left-2 {
-    float: left;
-    background-color: #0093ce;
-    height: 100%;
-    width: 50%;
+    float:left;
     position: relative;
+    width: 50%;
+    padding-top : 50%; /* = width for a 1:1 aspect ratio */
+    background-color:#0093ce;
+    overflow:hidden
 }
 
 .row-col-right-2 {
-    float: left;
-    background-color: #ff1d1d;
-    height: 100%;
+    float:left;
+    position: relative;
     width: 50%;
-    position: relative; 
+    padding-top : 50%; /* = width for a 1:1 aspect ratio */
+    background-color:#ff1d1d;
+    overflow:hidden
 } 
+
+.design-center > div img {
+    width: 20%;
+}
+
+.design-right-bg-col-1 {
+    background-color: #d5001e;
+}
+
+.design-right-bg-col-2 {
+    background-color: #b4d0e7;
+}
+
+.design-right-bg-col-3 {
+    background-color: #0d2481;
+}
+
+.design-right-bg-col-4 {
+    background-color: #ffd830;
+}
+
+.porta-nella-tua-azienda {
+    height: 400px;
+    background-color: lightskyblue;
+}
+
+
+
