@@ -44,6 +44,12 @@ body {
     margin: auto;
 }
 
+.align-right {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
 /* typo  */
 h1 {
     font-size: 65px;
@@ -225,12 +231,6 @@ ul li {
     font-weight: 500;
 }
 
-.align-right {
-    position: absolute;
-    top: 10px;
-    right: 20px;
-}
-
 /* quarta sezione del main  */
 .section-partner {
     margin-top: 100px;
@@ -306,50 +306,43 @@ ul li {
     background-color: rgb(210, 30, 150);
     width: 30%;
 }
-
+/* 
 .row {
     height: 50%;
-}
+} */
 
 .transform-translate img{
    width: 100%;
 }
 
-.row-col-left-1 {
+.common-row {
     float:left;
     position: relative;
     width: 50%;
-    padding-top : 50%; /* = width for a 1:1 aspect ratio */
-    background-color:#a3d39b;
-    /* border: 1px solid #d0e9cd; */
-    overflow:hidden  
+    padding-top: 50%; /* = width for a 1:1 aspect ratio */
+    overflow:hidden;
+}
+
+.row-col-left-1 {
+    background-color:#a3d39b;   
+}
+
+.outline-border {
+    /* outline serve per dare il bordo interno senza aumentare la dimensione  */
+    outline: 8px solid #d0e9cd;
+    outline-offset: -8px;
 }
 
 .row-col-right-1 {
-    float:left;
-    position: relative;
-    width: 50%;
-    padding-top : 50%; /* = width for a 1:1 aspect ratio */
     background-color:#61082b;
-    overflow:hidden;
 } 
 
 .row-col-left-2 {
-    float:left;
-    position: relative;
-    width: 50%;
-    padding-top : 50%; /* = width for a 1:1 aspect ratio */
     background-color:#0093ce;
-    overflow:hidden
 }
 
 .row-col-right-2 {
-    float:left;
-    position: relative;
-    width: 50%;
-    padding-top : 50%; /* = width for a 1:1 aspect ratio */
     background-color:#ff1d1d;
-    overflow:hidden
 } 
 
 .design-center > div img {
@@ -373,10 +366,59 @@ ul li {
 }
 
 .porta-nella-tua-azienda {
-    margin-top: -4px;
-    height: 400px;
+    height: 200px;
     background-color: lightskyblue;
+    position: relative;
+    vertical-align: middle;
+    color: #641033;
+    margin-bottom: 30px;
 }
 
+#title-porta-nella-tua-azienda {
+    position: absolute;
+    top: 75px;
+}
 
+.buttons.button-hero.button-partner.correction {
+    top: 60px;
+    right: 200px;
+    border: none;
+    position: absolute;
+    min-width: 300px;
+    padding: 5px;
+    position: absolute;
+}
+
+/* ultima sezione main con le FAQ  */
+.faq {
+    margin: 40px 0;
+}
+
+.faq ul {
+    width: 100%;
+}
+
+.faq ul li {
+    padding: 10px;
+    margin: 20px 0;
+    border-bottom: 1px solid lightgray;
+}
+
+.hat-down-icon {
+    text-align: right;
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    padding: -10px;
+    margin: -20px 0;
+}
+
+#border-top {
+    border-top: 1px solid lightgrey;
+    padding-top: 25px;
+}
+
+.faq h3 {
+    margin: 40px 0;
+}
 
