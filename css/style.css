@@ -182,11 +182,18 @@ li a {
     margin: 10px 0px 50px 0px;
 }
 
+ul li {
+    list-style: none;
+    text-indent: -10px;
+    padding-left: 20px;
+}
+
+
 .title-box {
     margin: 15px;
 }
 
-.title-box div {
+.title-box li, .title-box div{
     margin: 20px 0px;
 }
 
@@ -197,7 +204,7 @@ li a {
 .trattino {
     display: inline-block;
     width: 50px;
-    height: 20px;
+    height: 50px;
     padding-bottom: 50px;
     border-bottom: 1px solid grey;
 }
@@ -262,7 +269,7 @@ li a {
 /* quinta sezione main  */
 
 .business-row {
-    margin-bottom: 30px;
+    margin: 10px 0;
 }
 
 .centered-75 div img{
@@ -271,21 +278,11 @@ li a {
 .business-left, .business-center, .business-right {
     float: left;
     width: calc(100% / 3 - 40px);
-    margin-right: 40px;
     height: 500px;
 }
 
-.business-center {
-    float: left;
-    width: calc(100% / 3 - 40px);
+.business-left, .business-center {
     margin-right: 40px;
-    height: 500px;
-}
-
-.business-right {
-    float: left;
-    width: calc(100% / 3 - 40px);
-    height: 500px;
 }
 
 #underline {
