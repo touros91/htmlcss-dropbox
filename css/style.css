@@ -44,7 +44,7 @@ body {
 }
 
 .centered-75 {
-    width: 75%;
+    max-width: 75%;
     margin: auto;
 }
 
@@ -389,12 +389,7 @@ ul li {
 }
 
 .hat-down-icon {
-    text-align: right;
-    display: inline-block;
-    width: 100%;
-    vertical-align: top;
-    padding: -10px;
-    margin: -20px 0;
+    float: right;
 }
 
 #border-top {
