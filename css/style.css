@@ -435,10 +435,14 @@ footer {
     width: 20%;
 }
 
-footer ul li {
-    padding-left: 10px;
+footer ul li{
+    padding-left: 0px;
     margin-top: 5px;
     font-weight: 300;
+}
+
+footer li a {
+    color: white;
 }
 
 .trattino.trattino-footer {
