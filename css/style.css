@@ -53,6 +53,7 @@ body {
 /* typo  */
 h1 {
     font-size: 65px;
+    margin-bottom: 20px;
 }
 
 h2 {
@@ -141,7 +142,7 @@ li a {
 
 .buttons.button-hero {
     min-width: 200px;
-    height: 30px;
+    min-height: 30px;
     margin-top: 15px;
 }
 
@@ -420,9 +421,9 @@ ul li {
 
 /* footer  */
 footer {
-    background-color: black;
+    background-color: #000000;
     color: white;
-    height: 400px;
+    min-height: 400px;
 }
 
 .footer-top {
