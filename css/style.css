@@ -24,7 +24,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     min-width: 70px;
-    height: 30px;
+    min-height: 30px;
 }
 
 .centered-90{
@@ -142,7 +142,7 @@ li a {
 .buttons.button-hero {
     min-width: 200px;
     height: 30px;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 
 .col-right img {
@@ -159,7 +159,7 @@ li a {
     margin-top: 40px;
     float: left;
     width: calc(100% / 3 - 20px);
-    height: 900px;
+    min-height: 900px;
     font-size: 14px;
 }
 
@@ -259,7 +259,6 @@ ul li {
 }
 
 /* quinta sezione main  */
-
 .business-row {
     margin: 10px 0;
 }
@@ -306,10 +305,6 @@ ul li {
     background-color: rgb(210, 30, 150);
     width: 30%;
 }
-/* 
-.row {
-    height: 50%;
-} */
 
 .transform-translate img{
    width: 100%;
@@ -320,17 +315,20 @@ ul li {
     position: relative;
     width: 50%;
     padding-top: 50%; /* = width for a 1:1 aspect ratio */
-    overflow:hidden;
 }
 
 .row-col-left-1 {
     background-color:#a3d39b;   
 }
 
-.outline-border {
-    /* outline serve per dare il bordo interno senza aumentare la dimensione  */
+.outline-border { /* outline serve per dare il bordo interno senza aumentare la dimensione  */
     outline: 8px solid #d0e9cd;
     outline-offset: -8px;
+}
+
+.common-row:hover{
+    outline: 8px solid #d0e9cd;
+    outline-offset: -8px;  
 }
 
 .row-col-right-1 {
@@ -367,26 +365,24 @@ ul li {
 
 .porta-nella-tua-azienda {
     height: 200px;
-    background-color: lightskyblue;
-    position: relative;
-    vertical-align: middle;
+    background-color: #b4d0e7;
     color: #641033;
-    margin-bottom: 30px;
+    padding: 70px 0; 
 }
 
-#title-porta-nella-tua-azienda {
-    position: absolute;
-    top: 75px;
+.title-porta-nella-tua-azienda, .title-porta-nella-tua-azienda-button {
+    width: 50%;
+    float: left;
+}
+
+.title-porta-nella-tua-azienda-button {
+    text-align: right;
 }
 
 .buttons.button-hero.button-partner.correction {
-    top: 60px;
-    right: 200px;
     border: none;
-    position: absolute;
-    min-width: 300px;
-    padding: 5px;
-    position: absolute;
+    min-width: 250px;
+    margin-top: 0;
 }
 
 /* ultima sezione main con le FAQ  */
@@ -421,4 +417,37 @@ ul li {
 .faq h3 {
     margin: 40px 0;
 }
+
+/* footer  */
+footer {
+    background-color: black;
+    color: white;
+    height: 400px;
+}
+
+.footer-top {
+    padding-top: 60px;
+}
+
+.footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4, .footer-col-5 {
+    float: left;
+    width: 20%;
+}
+
+footer ul li {
+    padding-left: 10px;
+    margin-top: 5px;
+    font-weight: 300;
+}
+
+.trattino.trattino-footer {
+    width: 120px;
+    margin: 20px 0px;
+}
+
+.footer-bottom div:last-child {
+    color: grey;
+}
+
+
 
