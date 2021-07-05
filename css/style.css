@@ -119,6 +119,12 @@ li a {
     margin: 0 10px;
 }
 
+ul li {
+    list-style: none;
+    text-indent: -10px;
+    padding-left: 20px;
+}
+
 /* hero  */
 .bg-color {
     background-color: #b4d0e7;
@@ -176,12 +182,6 @@ li a {
     color: grey;
     display: block;
     margin: 10px 0px 50px 0px;
-}
-
-.title-box ul li {
-    list-style: none;
-    text-indent: -10px;
-    padding-left: 20px;
 }
 
 .title-box {
