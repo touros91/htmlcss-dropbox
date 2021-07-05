@@ -17,6 +17,10 @@ body {
     clear: both;
 }
 
+.float-left {
+    float: left;
+}
+
 .buttons {
     background-color: #0161FF;
     color: white;
@@ -94,12 +98,7 @@ header {
     padding: 10px;
 }
 
-.nav-left {
-    float: left;
-}
-
 .nav-right {
-    float: right;
     text-align: right;
 }
 
@@ -131,12 +130,10 @@ li a {
 }
 
 .col-left {
-    float: left;
     width: 40%;
 }
 
 .col-right {
-    float: left;
     width: 60%;
 }
 
@@ -158,7 +155,6 @@ li a {
 
 .colonna-left, .colonna-center, .colonna-right {
     margin-top: 40px;
-    float: left;
     width: calc(100% / 3 - 20px);
     min-height: 900px;
     font-size: 14px;
@@ -182,7 +178,7 @@ li a {
     margin: 10px 0px 50px 0px;
 }
 
-ul li {
+.title-box ul li {
     list-style: none;
     text-indent: -10px;
     padding-left: 20px;
@@ -238,7 +234,6 @@ ul li {
     margin-bottom: 80px;
 }
 .partner-left {
-    float: left;
     width: 60%;
 }
 
@@ -249,7 +244,6 @@ ul li {
 .partner-right {
     padding: 20px;
     width: 40%;
-    float: left;
 }
 
 .buttons.button-hero.button-partner {
@@ -269,12 +263,10 @@ ul li {
 }
 
 .business-left, .business-right {
-    float: left;
     width: calc(100% / 3 - 40px);
 }
 
 .business-center {
-    float: left;
     width: calc(100% / 3 - 40px);
     margin-right: 60px;
     margin-left: 60px;
@@ -291,18 +283,15 @@ ul li {
 }
 
 .design-left {
-    float: left;
     width: 30%;
 }
 
 .design-center{
-    float: left;
     width: 40%;
     padding: 18px;
 }
 
 .design-right {
-    float: left;
     background-color: rgb(210, 30, 150);
     width: 30%;
 }
@@ -312,7 +301,6 @@ ul li {
 }
 
 .common-row {
-    float:left;
     position: relative;
     width: 50%;
     padding-top: 50%; /* = width for a 1:1 aspect ratio */
@@ -373,7 +361,6 @@ ul li {
 
 .title-porta-nella-tua-azienda, .title-porta-nella-tua-azienda-button {
     width: 50%;
-    float: left;
 }
 
 .title-porta-nella-tua-azienda-button {
@@ -431,7 +418,6 @@ footer {
 }
 
 .footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4, .footer-col-5 {
-    float: left;
     width: 20%;
 }
 
