@@ -310,13 +310,8 @@ ul li {
     background-color:#a3d39b;   
 }
 
-.outline-border { /* outline serve per dare il bordo interno senza aumentare la dimensione  */
-    outline: 8px solid #d0e9cd;
-    outline-offset: -8px;
-}
-
-.common-row:hover{
-    outline: 8px solid #d0e9cd;
+.common-row:hover{/* outline serve per dare il bordo interno senza aumentare la dimensione  */
+    outline: 8px solid rgba(255,255,255,0.5);
     outline-offset: -8px;  
 }
 
